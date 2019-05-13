@@ -1,0 +1,47 @@
+{
+    "name": "webDemo",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "npm run serve",
+        "serve": "vue-cli-service serve",
+        "build": "cross-env NODE_ENV=production vue-cli-service build --mode pro",
+        "envTest": "cross-env NODE_ENV=production vue-cli-service build --mode dev",
+        "lint": "vue-cli-service lint",
+        "report": "vue-cli-service build --report"
+    },
+    "dependencies": {
+        "@antv/f2": "^3.3.9",
+        "axios": "^0.18.0",
+        "core-js": "^2.6.5",
+        "fastclick": "^1.0.6",
+        "html-loader": "^0.5.5",
+        "js-cookie": "^2.2.0",
+        "lib-flexible": "^0.3.2",
+        "mand-mobile": "^2.1.7",
+        "markdown-loader": "^5.0.0",
+        "qs": "^6.7.0",
+        "register-service-worker": "^1.6.2",
+        "showdown": "^1.9.0",
+        "vue": "^2.6.6",
+        "vue-ls": "^3.2.1",
+        "vue-router": "^3.0.1",
+        "vuex": "^3.0.1"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.5.0",
+        "@vue/cli-plugin-eslint": "^3.5.0",
+        "@vue/cli-plugin-pwa": "^3.5.0",
+        "@vue/cli-service": "^3.5.0",
+        "@vue/eslint-config-prettier": "^4.0.1",
+        "babel-eslint": "^10.0.1",
+        "babel-plugin-import": "^1.11.0",
+        "cross-env": "^5.2.0",
+        "eslint": "^5.8.0",
+        "eslint-plugin-vue": "^5.0.0",
+        "less": "^3.0.4",
+        "less-loader": "^4.1.0",
+        "postcss-pxtorem": "^4.0.1",
+        "vue-template-compiler": "^2.5.21"
+    }
+}
