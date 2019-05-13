@@ -24,6 +24,6 @@ npm run test
 ```
 npm run lint
 ```
-
+### UI:https://didi.github.io/mand-mobile/#/zh-CN/home
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
