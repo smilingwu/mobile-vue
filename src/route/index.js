@@ -1,15 +1,7 @@
 export default [
-    // {
-    //     path: '/',
-    //     redirect: '/about',
-    //     name: 'indexPage',
-    //     meta: {
-    //         title: '借款通',
-    //     },
-    //     component: () => import(/* webpackChunkName: "indexPage" */ '@V/index/IndexPage'),
-    // },
     {
         path: '/',
+        //redirect: '/',
         name: 'test',
         meta: {
             title: '测试',
